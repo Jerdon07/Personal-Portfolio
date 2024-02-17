@@ -1,0 +1,60 @@
+.body {
+	background-color: #F5F5F5;
+}
+
+.unorderedList {
+	list-style-type: none;
+	margin: 0;
+	padding: 14px 16px;
+	overflow: hidden;
+	background-color: white;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	position: static;
+	padding-top: 15px;
+}
+
+.listItem {
+	background-color: #white;
+	display: inline;
+	margin: 0;
+	padding: 10px;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+}
+
+
+.anchor {
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	padding: 10px 3px 10px;
+}
+
+.anchor:hover:not(.active) {
+	background-color: #DCDCDC;
+	text-align: center;
+	margin: 0;
+	padding: 12px 3px 12px;
+	border-radius: 7px;
+}
+
+.active {
+	background-color: black;
+	text-align: center;
+	cursor: pointer;
+	color: #4169E1;
+	text-decoration: underline;
+	font-size: 20px;
+}
+
+.title {
+	float: right;
+	font-size: 30px;
+	font-family: sans-serif;
+}
+
+.website {
+	background-color: #ff9100;
+	border-radius: 8px;
+}

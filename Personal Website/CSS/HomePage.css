@@ -1,0 +1,107 @@
+body {
+	margin: 0;
+	background-color: #d4d4d4;
+	width: 100%;
+	left: 0;
+}
+
+.navigationBar {
+	background-color: #ededed;
+	width: 100%;
+	box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
+	position: sticky;
+	top: 0;
+	left: 0;
+	border-bottom: solid;
+	border-width: 1px;
+}
+
+.unorderedList {
+	list-style-type: none;
+	margin: 0;
+	padding: 8px 10px 8px;
+	overflow: hidden;
+	position: static;
+	top: 10px;
+	
+}
+
+.listItem {
+	background-color: #ededed;
+	float: none;
+	margin: 0px 15px 0px;
+	padding:10px 20px 10px;
+	display: inline;
+}
+
+.anchor {
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	padding: 0px 30px 0px;
+	margin: 16px 0px 15px;
+	transition: 0.3s;
+}
+
+.anchor:hover:not(.active) {
+	background-color: #d4d4d4;
+	text-align: center;
+	font-size: 12px;
+	margin: 0px;
+	padding: 16px 30px 15px;
+	border-radius: 5px;
+	cursor: pointer;
+	color: #ff9900;
+}
+
+.active {
+	background-color: black;
+	text-align: center;
+	margin: 0px;
+	color: white;
+	font-size: 12px;
+	padding: 12px 30px 12px;
+	cursor: pointer;
+	padding-top: 100%;
+	padding-bottom: 100%;
+}
+
+.titleBox {
+	float: right;
+	background-color: black;
+	box-shadow: 0 33px 66px 100px rgb(00 00 00 / 100%);
+}
+
+.title {
+	float: right;
+	font-size: 30px;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: white;
+	padding: 0px;
+}
+
+.website {
+	background-color: #ff9900;
+	border-radius: 4px;
+	padding: 0px 14px 0px;
+	color: black;
+	margin: 0;
+}
+
+.fa-solid.fa-house {
+	font-size: 20px;
+}
+
+.fa-solid.fa-book-open-reader {
+	font-size: 20px;
+}
+
+.fa-solid.fa-trophy {
+	font-size: 20px;
+}
+
+.fa-solid.fa-user-group {
+	font-size: 20px;
+}
+
